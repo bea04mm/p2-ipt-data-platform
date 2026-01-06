@@ -1,0 +1,23 @@
+ipt_analytics:
+  outputs:
+    # For running dbt inside Docker (default)
+    dev:
+      type: postgres
+      host: warehouse
+      port: 5432
+      user: dbt_user
+      password: dbt_pass
+      dbname: warehouse
+      schema: analytics
+      threads: 4
+    # For running dbt from host machine (if you have dbt installed locally)
+    local:
+      type: postgres
+      host: localhost
+      port: 5434
+      user: dbt_user
+      password: dbt_pass
+      dbname: warehouse
+      schema: analytics
+      threads: 4
+  target: dev

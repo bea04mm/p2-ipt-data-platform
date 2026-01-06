@@ -1,0 +1,2 @@
+# Python generator requirements
+# No external dependencies required - uses only standard library

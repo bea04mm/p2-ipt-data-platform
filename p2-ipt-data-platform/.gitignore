@@ -1,0 +1,19 @@
+# Generated data
+generated_data/
+
+# Python
+__pycache__/
+*.pyc
+
+# dbt
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+dbt/.user.yml
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store

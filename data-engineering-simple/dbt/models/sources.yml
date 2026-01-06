@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: raw
+    description: Raw data extracted from source systems
+    schema: raw
+    tables:
+      - name: buildings
+        description: Buildings from Issues App
+      - name: issues
+        description: Maintenance issues reported
+      - name: rooms
+        description: Room catalog from Reservations App
+      - name: reservation_types
+        description: Types of reservations
+      - name: reservations
+        description: Room reservation records

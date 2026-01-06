@@ -1,0 +1,47 @@
+version: 2
+
+models:
+  - name: stg_issues
+    description: Cleaned issues from the Issues App
+    columns:
+      - name: issue_id
+        description: Primary key
+      - name: room_code
+        description: Room where issue was reported
+      - name: resolution_hours
+        description: Time to resolve in hours (null if unresolved)
+
+  - name: stg_rooms
+    description: Cleaned room catalog from Reservations App
+    columns:
+      - name: room_id
+        description: Primary key
+      - name: room_code
+        description: Human-readable room code (e.g., O103, B255)
+
+  - name: stg_reservations
+    description: Cleaned reservation records
+    columns:
+      - name: reservation_id
+        description: Primary key
+      - name: duration_hours
+        description: Length of reservation in hours
+
+  - name: mart_rooms
+    description: Room summary combining issues and reservations data
+    columns:
+      - name: room_code
+        description: Room identifier
+      - name: health_status
+        description: "Derived status: good, fair, needs_attention, critical"
+      - name: utilization_pct_90d
+        description: Estimated utilization percentage over last 90 days
+
+  - name: mart_issues
+    description: Issue details enriched with time calculations
+    columns:
+      - name: is_overdue
+        description: True if open issue is older than 7 days
+
+  - name: mart_buildings
+    description: Aggregated metrics by building
