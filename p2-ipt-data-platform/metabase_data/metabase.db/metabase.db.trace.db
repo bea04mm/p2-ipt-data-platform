@@ -1,7 +1,7 @@
-2026-01-27 00:57:12 jdbc[6]: exception
+2026-01-27 10:59:43 jdbc[6]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DATABASECHANGELOGLOCK" not found; SQL statement:
 SELECT COUNT(*) FROM "PUBLIC"."DATABASECHANGELOGLOCK" [42102-214]
-2026-01-27 00:57:20 jdbc[6]: exception
+2026-01-27 10:59:59 jdbc[6]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.PUBLIC_UUID" not found; SQL statement:
 select t."PUBLIC_UUID" from "PUBLIC"."DOCUMENT" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -112,7 +112,7 @@ select t."PUBLIC_UUID" from "PUBLIC"."DOCUMENT" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2026-01-27 00:57:20 jdbc[6]: exception
+2026-01-27 10:59:59 jdbc[6]: exception
 org.h2.jdbc.JdbcSQLSyntaxErrorException: Column "T.MADE_PUBLIC_BY_ID" not found; SQL statement:
 select t."MADE_PUBLIC_BY_ID" from "PUBLIC"."DOCUMENT" t where 0=1 [42122-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:502)
@@ -223,7 +223,7 @@ select t."MADE_PUBLIC_BY_ID" from "PUBLIC"."DOCUMENT" t where 0=1 [42122-214]
 	at clojure.lang.AFn.applyToHelper(AFn.java:152)
 	at clojure.lang.RestFn.applyTo(RestFn.java:135)
 	at metabase.core.bootstrap.main(Unknown Source)
-2026-01-27 01:20:46 jdbc[4]: exception
+2026-01-27 12:13:02 jdbc[24]: exception
 org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
@@ -348,7 +348,7 @@ org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (
 	at metabase.core.core$destroy_BANG_.invoke(core.clj:99)
 	at clojure.lang.AFn.run(AFn.java:22)
 	at java.base/java.lang.Thread.run(Unknown Source)
-2026-01-27 01:20:46 jdbc[4]: exception
+2026-01-27 12:13:02 jdbc[24]: exception
 org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-214]
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)

@@ -100,10 +100,7 @@ services:
       ports:
         - "5440:5432"
       volumes:
-        # 1. Persist the data (The building)
-        - ./warehouse_data:/var/lib/postgresql/data
-        # 2. Run the Setup Script (The truck) - ONLY RUNS ON FIRST START
-        - ./warehouse_setup/init_warehouse.sql:/docker-entrypoint-initdb.d/init_warehouse.sql:ro
+      - ./source_databases/warehouse_db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
       healthcheck:
         test: ["CMD-SHELL", "pg_isready -U warehouse_user -d ipt_warehouse"]
         interval: 5s
