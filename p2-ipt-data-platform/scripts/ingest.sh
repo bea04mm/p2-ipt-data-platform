@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # seeds files
-SIGQ_SEEDS="../generated_data/sigq_seed.sql"
-issues_SEEDS="../generated_data/issues_seed.sql"
-attendance_SEEDS="../generated_data/attendance_seed.sql"
-reservations_SEEDS="../generated_data/reservations_seed.sql"
+SIGQ_SEEDS="generated_data/sigq_seed.sql"
+issues_SEEDS="generated_data/issues_seed.sql"
+attendance_SEEDS="generated_data/attendance_seed.sql"
+reservations_SEEDS="generated_data/reservations_seed.sql"
 
 # Logica da batata
 echo "🚀 A começar a injeção..."
