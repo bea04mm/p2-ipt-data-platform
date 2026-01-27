@@ -34,3 +34,10 @@ Através do primeiro metodo criamos os links das dbs para o nosso data werehouse
     a ingestão do conteudo nas DBs.
 
 Após executarmos este script, já vamos conseguir aceder ao nosso metabase e recolher os dados
+
+
+# DBT
+
+docker exec -it ipt_dbt dbt seed --full-refresh
+
+docker exec -it ipt_dbt dbt run --select +dim_students

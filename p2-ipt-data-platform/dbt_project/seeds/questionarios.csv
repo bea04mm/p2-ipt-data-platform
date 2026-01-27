@@ -1,0 +1,321 @@
+codeCourse,ingresso,OrigemGeo,EscolaGeo,conhecimento,primeiraOpc,razoes,razoesText
+L186,I001,CO001,CE001,C001,True,R001,Prestigio do IPT enquanto instituição de ensino superior
+9056,I003,CO015,CE001,C002,True,R001;R002,Situação socioeconómica inviabilizadora de qualquer outra opção
+9119,I003,CO019,CE001,C003,True,R001;R002,Localização do IPT/Proximidade da residência familiar
+9640,I003,CO001,CE013,C004,True,R001;R003,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Qualidade da vida académica do IPT"
+9380,I003,CO006,CE013,C005,False,R004;R003,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Prestígio do IPT enquanto instituição de ensino superior"
+9380,I003,CO009,CE013,C006,True,R001;R005,Qualidade da vida académica do IPT
+9645,I003,CO013,CE013,C002,True,R001,Qualidade da vida académica do IPT;Valor anual das propinas do IPT
+9644,I003,CO013,CE013,C017;C007;C002,False,R001;R005;R006,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Qualidade da vida académica do IPT
+9644,I003,CO024,CE013,C006,True,R001;R005,Localização do IPT/Proximidade da residência familiar
+9089,I002,CO002,CE050,C008,True,R001,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas
+9645,I003,CO050,CE050,C007,True,R001,Localização do IPT/Proximidade da residência familiar;Valor anual das propinas do IPT
+9119,I003,CO003,CE003,C001,True,R002,Localização do IPT/Proximidade da residência familiar
+9380,I003,CO004,CE004,C002,True,R001,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Prestígio do IPT enquanto instituição de ensino superior
+9380,I003,CO017,CE004,C004,True,R001,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida"
+L297,I003,CO037,CE004,C001,True,R005,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Valor anual das propinas do IPT"
+9645,I003,CO037,CE004,C014,False,R001;R005,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Qualidade da vida académica do IPT"
+9644,I003,CO005,CE005,C002;C004,True,R001,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Prestígio do IPT enquanto instituição de ensino superior"
+9644,I003,CO005,CE005,C004,True,R001;R005;R002,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida"
+9644,I003,CO047,CE005,C002,True,R001,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Qualidade da vida académica do IPT;Situação socioeconómica inviabilizadora de qualquer outra opção"
+9640,I003,CO007,CE007,C001,True,R002,Localização do IPT/Proximidade da residência familiar
+9123,I003,CO007,CE007,C010;C002,True,R001,Localização do IPT/Proximidade da residência familiar;Prestígio do IPT enquanto instituição de ensino superior;Situação socioeconómica inviabilizadora de qualquer outra opção
+9644,I003,CO007,CE007,C002,True,R002,Localização do IPT/Proximidade da residência familiar
+9645,I003,CO008,CE008,C004,True,R001;R005,Qualidade da vida académica do IPT
+9640,I003,CO050,CE008,C007;C004,True,R005;R002;R003,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Localização do IPT/Proximidade da residência familiar;Qualidade da vida académica do IPT"
+9112,I003,CO007,CE022,C007,True,R002;R003,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Localização do IPT/Proximidade da residência familiar;Prestígio do IPT enquanto instituição de ensino superior;Qualidade da vida académica do IPT
+9119,I003,CO022,CE022,C010;C002;C012;C003;C001,True,R001;R002,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Localização do IPT/Proximidade da residência familiar;Prestígio do IPT enquanto instituição de ensino superior;Valor anual das propinas do IPT
+9380,I003,CO011,CE011,C006,True,R001;R003,Prestígio do IPT enquanto instituição de ensino superior
+9380,I003,CO011,CE011,C004,False,R005,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas"
+9119,I003,CO011,CE011,C004,False,R001;R005,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida"
+L207,I003,CO012,CE012,C014,True,R001,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas
+9645,I003,CO014,CE014,C002,True,R001;R005,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT
+L297,I003,CO014,CE014,C002,True,R005;R004,Prestígio do IPT enquanto instituição de ensino superior;Qualidade da vida académica do IPT;Valor anual das propinas do IPT
+9644,I003,CO014,CE014,C007,True,R001;R005,Localização do IPT/Proximidade da residência familiar
+9644,I003,CO008,CE035,C010;C015; C014,True,R001;R005,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Qualidade da vida académica do IPT
+9380,I003,CO035,CE035,C010;C015; C007;C006;C003,True,R001,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Prestígio do IPT enquanto instituição de ensino superior"
+9119,I003,CO015,CE015,C002,True,R001;R005,Localização do IPT/Proximidade da residência familiar;Valor anual das propinas do IPT
+9644,I003,CO011,CE088,C005;C007;C003;C001,True,R001;R005;R003,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Qualidade da vida académica do IPT;Valor anual das propinas do IPT"
+9119,I003,CO018,CE018,C015; C014;C007;C006;C002;C001,True,R001;R002;R003,Localização do IPT/Proximidade da residência familiar;Prestígio do IPT enquanto instituição de ensino superior
+9112,I003,CO018,CE018,C014;C002;C002,False,R002,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Localização do IPT/Proximidade da residência familiar;Valor anual das propinas do IPT"
+9380,I003,CO018,CE018,C007;C002;C004;C001,True,R001;R005;R002,Localização do IPT/Proximidade da residência familiar
+9644,I003,CO018,CE018,C010;C015; C002;C006,True,R004;R002;R003;R006,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Localização do IPT/Proximidade da residência familiar;Prestígio do IPT enquanto instituição de ensino superior;Situação socioeconómica inviabilizadora de qualquer outra opção
+9112,I003,CO018,CE018,C007;C002,True,R001;R003,Prestígio do IPT enquanto instituição de ensino superior
+9644,I003,CO018,CE018,C010;C015; C014;C002;C006,True,R005;R004;R002;R006,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Localização do IPT/Proximidade da residência familiar;Situação socioeconómica inviabilizadora de qualquer outra opção;Valor anual das propinas do IPT"
+9119,I003,CO018,CE018,C006;C002,False,R002,Localização do IPT/Proximidade da residência familiar
+9644,I003,CO020,CE020,C014;C002;C006,True,R001;R005;R004;R003,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Qualidade da vida académica do IPT;Valor anual das propinas do IPT
+9380,I003,CO021,CE021,C002;C006,True,R001,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas;Qualidade da vida académica do IPT
+9644,I003,CO018,CE023,C002;C004,True,R001;R005;R002,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Localização do IPT/Proximidade da residência familiar
+9644,I003,CO023,CE023,C004,True,R001,Localização do IPT/Proximidade da residência familiar
+9380,I003,CO023,CE023,C004,True,R001;R003,Prestígio do IPT enquanto instituição de ensino superior;Qualidade da vida académica do IPT
+9644,I003,CO025,CE025,C007;C002;C003,True,R001,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas
+9644,I003,CO027,CE025,C007;C002,False,R005,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas
+9644,I003,CO026,CE026,C004,False,R001;R003,Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas
+9644,I003,CO027,CE027,C002,True,R006,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida"
+L207,I003,CO027,CE027,C007,False,R001;R003,Conhecimento prévio das infraestruturas e instalaçÃµes dos campi IPT;Localização do IPT/Proximidade da residência familiar
+9644,I003,CO027,CE027,C004,False,R001;R005,"Campi do IPT, inseridos em cidades de média dimensão, com menor custo de vida;Expectativa de que o IPT (devido à sua dimensão) seja facilitador de relacionamentos interpessoais e de resolução de problemas"
+9380,I003,CO019,CE029,C014;C007,True,R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9644,I003,CO029,CE029,C014;C007;C002;C003;C001,True,R001;R005;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9380,I003,CO030,CE030,C001,True,R001;R002;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior"
+9380,I003,CO031,CE031,C002;C004;C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT
+9645,I003,CO033,CE033,C001;C007,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Prestgio do IPT enquanto instituio de ensino superior"
+9380,I003,CO033,CE033,C002,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Prestgio do IPT enquanto instituio de ensino superior"
+9056,I003,CO034,CE034,"C003 ",True,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9645,I003,CO036,CE036,C014,True,R001,Situao socioeconmica inviabilizadora de qualquer outra opo
+9640,I003,CO053,CE039,C001,False,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9380,I003,CO040,CE040,C004,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT"
+9380,I003,CO041,CE041,C001,False,R001;R003,Prestgio do IPT enquanto instituio de ensino superior
+9380,I003,CO044,CE044,C004,True,R001,Prestgio do IPT enquanto instituio de ensino superior
+9380,I003,CO044,CE044,C002,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Qualidade da vida acadmica do IPT"
+9644,I003,CO045,CE045,C003; C004,False,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas"
+L207,I003,CO045,CE045,C004,False,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9644,I003,CO046,CE046,C017;C002;C002,False,R001;R003;R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9380,I003,CO046,CE046,C002,True,R001;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9119,I003,CO048,CE048,C014;C007;C002,True,R001;R002;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9380,I003,CO049,CE049,C004,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Qualidade da vida acadmica do IPT
+9644,I003,CO051,CE052,C002 ;C004,True,R005;R003;R006,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Qualidade da vida acadmica do IPT
+9380,I003,CO051,CE052,C006;C004,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9645,I003,CO052,CE052,C002,True,R001;R006,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9644,I003,CO054,CE054,C004,True,R001;R005,Localizao do IPT/Proximidade da residncia familiar
+9644,I003,CO056,CE056,C002;C004,True,R001;R005;R004,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9645,I003,CO032,CE001,C004,False,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9644,I003,CO057,CE057,C010;C002;C006;C004,False,R001;R005;R002,Valor anual das propinas do IPT
+9645,I003,CO033,CE083,C004,True,R001;R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9380,I003,CO039,CE059,C003,False,R001;R005,Qualidade da vida acadmica do IPT
+9645,I003,CO036,CE001,C004,True,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas"
+9644,I003,CO038,CE065,C002;C006,True,R006,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Qualidade da vida acadmica do IPT"
+9644,I003,CO042,CE001,C007,True,R001;R005,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9644,I003,CO043,CE087,C002,False,R001;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar"
+9640,I003,CO055,CE075,C002,False,R001,Valor anual das propinas do IPT
+L371,I003,CO006,CE013,C004,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9380,I003,CO027,CE027,C004,True,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I003,CO035,CE035,C011;C004,True,R001;R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9056,I003,CO013,CE011,C002,False,R005,Localizao do IPT/Proximidade da residncia familiar
+L143,I003,CO020,CE023,C007;C002,True,R001;R002;R003;R006,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9152,I003,CO016,CE016,C017,True,R003;R006,Qualidade da vida acadmica do IPT
+L371,I003,CO058,CE058,C001,True,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9645,I003,CO007,CE046,C002;C016,True,R001;R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar
+L297,I003,CO059,CE059,C004,False,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT"
+9640,I003,CO060,CE030,C014,True,R005,Localizao do IPT/Proximidade da residncia familiar
+9380,I003,CO015,CE015,C007;C006,True,R001;R005;R002;R003,Localizao do IPT/Proximidade da residncia familiar
+9380,I003,CO061,CE061,C004,True,R001;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9644,I003,CO062,CE062,C002,False,R001;R006,Prestgio do IPT enquanto instituio de ensino superior
+9380,I003,CO040,CE040,C002;C004;C001,True,R001;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9640,I003,CO058,CE058,C002;C004,False,R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I003,CO007,CE007,C014;C002,True,R001,Localizao do IPT/Proximidade da residncia familiar
+L371,I003,CO013,CE013,C001,False,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9644,I003,CO050,CE050,C004,False,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9380,I003,CO063,CE063,C004,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9644,I003,CO064,CE058,C007;C002,False,R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I003,CO065,CE065,C012;C003;C016;C004,False,R005;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior"
+9644,I003,CO066,CE066,C010;C015; C014;C007;C003,True,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9645,I003,CO040,CE040,C002,False,R005,Prestgio do IPT enquanto instituio de ensino superior
+9380,I003,CO067,CE067,C007,True,R001;R005,Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9380,I003,CO063,CE063,C007;C006,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+L207,I003,CO023,CE023,C010;C015; C014;C004,False,R001;R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9640,I003,CO058,CE058,C007,False,R005,Localizao do IPT/Proximidade da residncia familiar
+9640,I003,CO029,CE029,C014;C007;C002,True,R001;R005,Localizao do IPT/Proximidade da residncia familiar
+9056,I003,CO011,CE011,C002,True,R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9644,I003,CO068,CE068,C004,False,R001;R005;R004;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT"
+9380,I003,CO069,CE001,C004,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+L371,I003,CO070,CE070,C007,False,R001,Situao socioeconmica inviabilizadora de qualquer outra opo
+L371,I003,CO070,CE070,C007,False,R001,Situao socioeconmica inviabilizadora de qualquer outra opo
+9644,I003,CO027,CE027,C002,False,R001;R005,Localizao do IPT/Proximidade da residncia familiar
+L186,I003,CO027,CE027,C004,False,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9056,I003,CO015,CE015,C002,True,R005;R002,Localizao do IPT/Proximidade da residncia familiar
+L371,I003,CO050,CE050,C004,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9644,I003,CO049,CE001,C002;C006;C003,True,R001,Qualidade da vida acadmica do IPT
+9644,I003,CO027,CE027,C002,False,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+L297,I003,CO050,CE050,C001,False,R001;R005,Localizao do IPT/Proximidade da residncia familiar
+L207,I003,CO061,CE061,C004,False,R005,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9645,I003,CO071,CE058,C015; C007;C006;C002;C003;C001,True,R001;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar"
+9089,I001,CO001,CE001,C002,True,R001;R005,Qualidade da vida acadmica do IPT
+9644,I003,CO072,CE036,C007,False,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9644,I003,CO038,CE013,C002,False,R001;R004,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9123,I003,CO018,CE022,C002;C006;C003;C004,True,R001;R002;R006,Localizao do IPT/Proximidade da residncia familiar
+9644,I003,CO073,CE073,C004,False,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9056,I003,CO007,CE007,C012,False,R005,Localizao do IPT/Proximidade da residncia familiar
+L142,I003,CO074,CE074,C004,False,R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+L297,I003,CO029,CE007,C015; C002;C012;C001,True,R001;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT"
+9119,I004,CO018,CE001,C002,True,R001;R006,Localizao do IPT/Proximidade da residncia familiar
+9089,I005,CO075,CE001,C012,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9089,I002,CO013,CE013,C002,True,R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9380,I002,CO076,CE001,C012;C001,True,R001;R004;R003,Prestgio do IPT enquanto instituio de ensino superior;Valor anual das propinas do IPT
+L186,I007:,CO077,CE077,C002,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9119,I006,CO029,CE023,C002,True,R001;R005;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT
+9123,I004,CO029,CE007,C002,True,R001;R002;R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar
+9380,I004,CO059,CE059,C001,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT"
+9152,I004,CO007,CE007,C010,True,R002,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9089,I002,CO064,CE013,C004;C001,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I004,CO018,CE029,C013,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9112,I001,CO001,CE001,C002;C012;C001,False,R001;R004;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT"
+9123,I004,CO034,CE008,C002,True,R001,Situao socioeconmica inviabilizadora de qualquer outra opo
+L211,I007:,CO018,CE018,C014,False,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9123,I007:,CO061,CE001,C003,False,R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9119,I007:,CO018,CE018,C006,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+9112,I004,CO015,CE018,C016,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+9645,I001,CO007,CE007,C023,False,R007,Prestgio do IPT enquanto instituio de ensino superior
+L207,I001,CO001,CE001,C020,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9645,I003,CO078,CE078,C007,True,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT"
+9152,I003,CO062,CE062,C014;C002,True,R001;R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+L211,I001,CO029,CE001,C002,False,R004,Valor anual das propinas do IPT
+L297,I003,CO020,CE020,C014;C001,True,R001;R005;R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9645,I003,CO045,CE045,C002;C006,False,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT"
+9112,I003,CO013,CE013,C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9644,I003,CO079,CE079,C002,False,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9640,I003,CO050,CE050,C002,False,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Situao socioeconmica inviabilizadora de qualquer outra opo
+9645,I003,CO035,CE035,C007,False,R001;R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9645,I003,CO030,CE030,C014,True,R005,Qualidade da vida acadmica do IPT
+L297,I003,CO011,CE011,C002,False,R001;R005;R006,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9644,I003,CO046,CE046,C022,False,R005;R003,Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT
+9119,I003,CO007,CE007,C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9645,I003,CO050,CE050,C001,True,R001;R005;R003,Qualidade da vida acadmica do IPT
+L371,I003,CO002,CE002,C007;C004;C001,False,R001,Qualidade da vida acadmica do IPT
+9380,I003,CO035,CE001,C001,True,R001,Qualidade da vida acadmica do IPT
+9119,I003,CO080,CE080,C002,True,R001;R005;R003,Qualidade da vida acadmica do IPT
+9644,I003,CO027,CE027,C010,False,R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9640,I003,CO007,CE007,C001,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9152,I005,CO081,CE063,C003;C004;C001,False,R001;R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9640,I003,CO082,CE082,C002,True,R001;R006,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9380,I003,CO054,CE054,C006,True,R001,Qualidade da vida acadmica do IPT
+9640,I003,CO066,CE066,C004,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+L297,I003,CO013,CE013,C002 ;C012;C003;C004,True,R001;R005;R004;R002;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT"
+L371,I003,CO013,CE013,C015,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+L142,I003,CO058,CE058,C002,True,R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9152,I003,CO015,CE015,C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I003,CO083,CE001,C002;C004,False,R001;R003,Prestgio do IPT enquanto instituio de ensino superior
+9640,I003,CO050,CE050,C004,True,R005;R004,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+L297,I003,CO062,CE062,C004,False,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas"
+L297,I003,CO014,CE014,C012,True,R001;R005;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Prestgio do IPT enquanto instituio de ensino superior;Situao socioeconmica inviabilizadora de qualquer outra opo;Valor anual das propinas do IPT"
+L371,I003,CO038,CE038,C014;C007;C003,True,R001;R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9119,I003,CO007,CE007,C002,True,R002;R006,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar
+L211,I001,CO029,CE001,C002,True,R001;R003;R006,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9645,I007:,CO007,CE007,C001,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Qualidade da vida acadmica do IPT"
+9089,I001,CO007,CE001,C002,True,R002;R003;R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT
+9644,I001,CO007,CE007,C015,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9640,I005,CO001,CE001,C001,False,R001;R005;R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT
+9644,I001,CO007,CE007," C017;C010;C001",True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9119,I003,CO007,CE007,C010;C002,True,R005;R002,Localizao do IPT/Proximidade da residncia familiar
+L297,I003,CO014,CE014,C007,False,R001,Prestgio do IPT enquanto instituio de ensino superior
+L371,I003,CO036,CE036,C004,False,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT
+9123,I001,CO029,CE001,C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9089,I001,CO023,CE001,C001,True,R001,Qualidade da vida acadmica do IPT
+9152,I001,CO001,CE001,Erasmus,True,R001;R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Prestgio do IPT enquanto instituio de ensino superior
+9152,I001,CO001,CE001,C017;C024,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9644,I001,CO007,CE001,C002,True,R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9640,I003,CO084,CE084,C007,False,R005,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+9645,I001,CO001,CE001,C023,True,R007,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9644,I003,CO009,CE013,C002,False,R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9119,I003,CO085,CE023,C014;C002;C003,True,R001;R002;R003,Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT
+L297,I003,CO046,CE046,C005;C002,True,R001;R005;R004;R006,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar"
+9644,I001,CO007,CE001,C023,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Qualidade da vida acadmica do IPT"
+9119,I001,CO007,CE007,C024,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9112,I005,CO038,CE038,C001,False,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar"
+L207,I005,CO027,CE064,C002,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9056,I001,CO001,CE001,C002; C001,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9644,I001,CO001,CE001,C002,True,R007,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Qualidade da vida acadmica do IPT"
+9119,I007:,CO012,CE023,C004,True,R001;R004;R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT
+9640,I004,CO029,CE029,C021,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I004,CO029,CE001,C001,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+9123,I001,CO013,CE001,C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9123,I001,CO013,CE001,C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9123,I001,CO013,CE001,C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9123,I001,CO013,CE001,C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Prestgio do IPT enquanto instituio de ensino superior
+9123,I007:,CO007,CE007,C017,True,R001;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9152,I004,CO007,CE023,C002,True,R001;R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar
+9112,I007:,CO007,CE007,C010;C002,True,R001;R005;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar
+9119,I005,CO046,CE046,C002,True,R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9640,I005,CO007,CE007,C002;C019,True,R001;R004;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT"
+L297,I001,CO029,CE001,C020,True,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9640,I002,CO014,CE013,C002,True,R001;R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9112,I004,CO007,CE001,C002,True,R002;R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+L143,I001,CO001,CE001,C002,False,R005;R004,Valor anual das propinas do IPT
+9152,I005,CO045,CE023,C002;C012;C003,True,R001;R004;R002;R003,Prestgio do IPT enquanto instituio de ensino superior;Valor anual das propinas do IPT
+9152,I004,CO020,CE018,C002;C012;C003,True,R001;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9089,I005,CO015,CE013,C001,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9644,I001,CO007,CE007,C020,True,R001;R006,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9119,I004,CO029,CE029,C002,True,R001;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar
+9112,I001,CO001,CE001,C012,True,R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9119,I004,CO007,CE036,C002,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+L211,I001,CO029,CE001,C012,False,R001,Qualidade da vida acadmica do IPT
+9089,I002,CO085,CE023,C002;C006,True,R001;R004;R003,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Valor anual das propinas do IPT
+9152,I009,CO022,CE013,C002;C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9089,I004,CO085,CE050,C002;C006,True,R001;R004;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Prestgio do IPT enquanto instituio de ensino superior;Valor anual das propinas do IPT"
+9112,I005,CO023,CE023,C001,True,R001;R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar
+9112,I005,CO045,CE001,C002;C012;C003;C001,True,R001;R004;R002;R006,Localizao do IPT/Proximidade da residncia familiar
+L143,I002,CO086,CE007,C012;C003;C004;C001,True,R001;R002;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT"
+9119,I002,CO018,CE036,C002,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+L186,I009,CO087,CE013,C012,True,R004;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+9089,I004,CO045,CE024,C002,True,R001;R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar"
+9112,I009,CO007,CE007,C002,True,R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+L371,I004,CO007,CE018,C002,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+L371,I002,CO083,CE032,C002,False,R001,Localizao do IPT/Proximidade da residncia familiar
+9152,I004,CO034,CE018,C012,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9112,I001,CO001,CE001,C005;C002,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT
+L297,I003,CO012,CE013,C003,False,R005,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9640,I004,CO048,CE090,C001,True,R001;R002;R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+9089,I002,CO015,CE013,C001,True,R001;R002;R003,Localizao do IPT/Proximidade da residncia familiar
+9645,I004,CO023,CE023,C002,True,R001;R004;R006,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+9123,I007:,CO028,CE083,C007;C002;C003,True,R001;R004;R002;R003,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar;Valor anual das propinas do IPT"
+9112,I006,CO018,CE050,C001,True,R001;R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Localizao do IPT/Proximidade da residncia familiar
+9054,I007:,CO042,CE042,C001,True,R001,Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT
+9089,I002,CO014,CE013,C001,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+L297,I001,CO029,CE001,C001,False,R003,Prestgio do IPT enquanto instituio de ensino superior
+9112,I005,CO007,CE013,C002,True,R001,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+L143,I004,CO015,CE036,C001,True,R001;R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Localizao do IPT/Proximidade da residncia familiar
+9119,I006,CO016,CE016,C021,True,,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+L371,I003,CO019,CE019,C001,True,R001;R005;R002,Localizao do IPT/Proximidade da residncia familiar
+9112,I001,CO001,CE001,C002,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9640,I004,CO018,CE006,C010,True,R001;R004,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Situao socioeconmica inviabilizadora de qualquer outra opo;Valor anual das propinas do IPT"
+L297,I006,CO042,CE042,C006,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Valor anual das propinas do IPT
+9089,I004,CO029,CE088,C021,True,R002,Localizao do IPT/Proximidade da residncia familiar
+L371,I003,CO088,CE088,C004,True,R001,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+9152,I007:,CO007,CE007,C003,True,R002,Valor anual das propinas do IPT
+L207,I001,CO007,CE001,C023,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9152,I004,CO018,CE001,C002;C003,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9640,I004,CO018,CE022,C001,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9112,I001,CO001,CE001,C001,True,R003,Localizao do IPT/Proximidade da residncia familiar
+L297,I004,CO029,CE011,C002,True,R002,Localizao do IPT/Proximidade da residncia familiar
+9123,I006,CO066,CE083,C001,True,R002,Localizao do IPT/Proximidade da residncia familiar
+L371,I004,CO029,CE029,C017;C019,True,R001,Localizao do IPT/Proximidade da residncia familiar
+L371,I003,CO033,CE033,C004,True,R001;R005,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Valor anual das propinas do IPT"
+9645,I003,CO014,CE014,C014,False,R001;R005,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+L371,I003,CO013,CE001,C004,True,R001,Prestgio do IPT enquanto instituio de ensino superior
+9640,I003,CO013,CE001,C003;C004;C001,True,R001;R005;R006,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT;Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas"
+9640,I003,CO019,CE019,C002,True,R002;R006,Localizao do IPT/Proximidade da residncia familiar
+9152,I001,CO029,CE018,C002;C019,False,R005;R002,Localizao do IPT/Proximidade da residncia familiar
+L186,I001,CO001,CE001,C002,False,R001,Valor anual das propinas do IPT
+9056,I007:,CO089,CE001,C002,True,R009,Situao socioeconmica inviabilizadora de qualquer outra opo
+9089,I002,CO077,CE036,C002,True,R002,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Localizao do IPT/Proximidade da residncia familiar"
+9380,I007:,CO023,CE001,C002;C001,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+L186,I001,CO007,CE001,C002,True,R003,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT
+L207,I001,CO007,CE001,,False,R001,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida"
+9152,I008,CO036,CE007,C001,True,R008,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9089,I001,CO024,CE001,C020,True,R001,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9089,I009,CO088,CE001,C002,True,R002;R003;R006,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior
+L143,I001,CO018,CE018,C014,False,R001;R004,Localizao do IPT/Proximidade da residncia familiar;Qualidade da vida acadmica do IPT
+9119,I009,CO005,CE005,C004,True,R002,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas
+L143,I001,CO013,CE013,C002;C012,False,R001;R004;R003,Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT
+9112,I001,CO001,CE001,C001,False,R001,Localizao do IPT/Proximidade da residncia familiar
+L143,I001,CO018,CE001,C001,False,R004,Qualidade da vida acadmica do IPT
+9152,I001,CO007,CE001,,True,R007,"Campi do IPT, inseridos em cidades de mdia dimenso, com menor custo de vida;Conhecimento prvio das infraestruturas e instalaes dos campi IPT"
+9112,I001,CO001,CE001,C002,False,R005;R004;R002;R003,Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT
+L297,I007:,CO018,CE013,C002,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9089,I001,CO001,CE001,C001,True,R006,Qualidade da vida acadmica do IPT;Valor anual das propinas do IPT
+9089,I009,CO029,CE001,C002,True,R002,Valor anual das propinas do IPT
+9089,I007:,CO058,CE058,C020,True,R002,Conhecimento prvio das infraestruturas e instalaes dos campi IPT
+9089,I007:,CO007,CE024,C019,True,R002,Localizao do IPT/Proximidade da residncia familiar
+L186,I004,CO090,CE013,C002,True,R004,Prestgio do IPT enquanto instituio de ensino superior
+L207,I004,CO034,CE007,C002,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9123,I002,CO066,CE056,C002,True,R001;R002,Localizao do IPT/Proximidade da residncia familiar
+L186,I004,CO013,CE013,C002,True,R001,Prestgio do IPT enquanto instituio de ensino superior
+L186,I004,CO007,CE036,C011,True,R001,Localizao do IPT/Proximidade da residncia familiar
+9640,I004,CO015,CE013,C002;C004,True,R001;R002;R003;R006,Localizao do IPT/Proximidade da residncia familiar;Prestgio do IPT enquanto instituio de ensino superior;Qualidade da vida acadmica do IPT;Situao socioeconmica inviabilizadora de qualquer outra opo
+L143,I001,CO001,CE001,C002,False,R003,Qualidade da vida acadmica do IPT
+9152,I001,CO007,CE001,C018,True,R001;R004;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+9152,I001,CO007,CE001,C018,True,R001;R004;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+9152,I001,CO007,CE001,C018,True,R001;R004;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+9152,I001,CO007,CE001,C018,True,R001;R004;R003,Expectativa de que o IPT (devido  sua dimenso) seja facilitador de relacionamentos interpessoais e de resoluo de problemas;Valor anual das propinas do IPT
+L143,I001,CO001,CE001,C001,True,R001,Qualidade da vida acadmica do IPT
+9380,I007:,CO034,CE007,C010,False,R001,Prestgio do IPT enquanto instituio de ensino superior
+L143,I001,CO018,CE029,C001,False,R001;R005;R004,Valor anual das propinas do IPT

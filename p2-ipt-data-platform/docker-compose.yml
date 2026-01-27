@@ -3,7 +3,7 @@ services:
   # SOURCE DATABASES (Operational/OLTP)
   # ==========================================
 
-  # Issues Reporting App
+  # Issues App service
   issues_db:
     image: postgres:15-alpine
     container_name: ipt_issues_db
@@ -23,7 +23,7 @@ services:
     networks:
       - ipt_network
 
-  # Room Reservations App
+  # Rooms App service
   reservations_db:
     image: postgres:15-alpine
     container_name: ipt_reservations_db
@@ -43,7 +43,7 @@ services:
     networks:
       - ipt_network
 
-  # Summaries and Attendance App
+  # Attendance App service
   attendance_db:
     image: postgres:15-alpine
     container_name: ipt_attendance_db
@@ -84,44 +84,64 @@ services:
       - ipt_network
 
   # ==========================================
+  # ANALYTICS & TRANSFORMATION
+  # ==========================================
+
+  ipt_analytics:
+    image: postgres:15-alpine
+    container_name: ipt_analytics_db
+    environment:
+      POSTGRES_DB: ipt_analytics
+      POSTGRES_USER: dbt_user
+      POSTGRES_PASSWORD: dbt_password
+    ports:
+      - "5441:5432"
+    volumes:
+      - ./analytics_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U dbt_user -d ipt_analytics"]
+      interval: 5s
+      retries: 5
+    networks:
+      - ipt_network
+
+  # ==========================================
   # ANALYTICS ARCHITECTURE (Warehouse & BI)
   # ==========================================
 
   # 1. The Data Warehouse
-  # This acts as the central repository.
-  # The volume maps to a local folder named 'warehouse_data' in your project directory.
   warehouse_db:
-      image: postgres:15-alpine
-      container_name: ipt_warehouse_db
-      environment:
-        POSTGRES_DB: ipt_warehouse
-        POSTGRES_USER: warehouse_user
-        POSTGRES_PASSWORD: warehouse_pass
-      ports:
-        - "5440:5432"
-      volumes:
+    image: postgres:15-alpine
+    container_name: ipt_warehouse_db
+    environment:
+      POSTGRES_DB: ipt_warehouse
+      POSTGRES_USER: warehouse_user
+      POSTGRES_PASSWORD: warehouse_pass
+    ports:
+      - "5440:5432"
+    volumes:
       - ./source_databases/warehouse_db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
-      healthcheck:
-        test: ["CMD-SHELL", "pg_isready -U warehouse_user -d ipt_warehouse"]
-        interval: 5s
-        timeout: 3s
-        retries: 5
-      # CRITICAL: Warehouse must wait for sources to be 'Healthy' 
-      # otherwise IMPORT SCHEMA will fail because sources aren't ready yet.
-      depends_on:
-        issues_db:
-          condition: service_healthy
-        reservations_db:
-          condition: service_healthy
-        attendance_db:
-          condition: service_healthy
-        sigq_db:
-          condition: service_healthy
-      networks:
-        - ipt_network
+      - ./warehouse_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U warehouse_user -d ipt_warehouse"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    depends_on:
+      issues_db:
+        condition: service_healthy
+      reservations_db:
+        condition: service_healthy
+      attendance_db:
+        condition: service_healthy
+      sigq_db:
+        condition: service_healthy
+      ipt_analytics:
+        condition: service_healthy
+    networks:
+      - ipt_network
 
   # 2. Metabase (BI Tool)
-  # Connects to the same network to read from the warehouse
   metabase:
     image: metabase/metabase:latest
     container_name: ipt_metabase
@@ -130,7 +150,6 @@ services:
     environment:
       MB_DB_FILE: /metabase-data/metabase.db
     volumes:
-      # Persist Metabase settings (dashboards/users) locally
       - ./metabase_data:/metabase-data
     depends_on:
       warehouse_db:
@@ -142,14 +161,13 @@ services:
   # TOOLS
   # ==========================================
 
-  # Adminer - Database browser
+  # Adminer - Database GUI
   adminer:
     image: adminer:latest
     container_name: ipt_adminer
     ports:
       - "8080:8080"
     environment:
-      # Default server set to warehouse for easier access
       ADMINER_DEFAULT_SERVER: warehouse_db
     depends_on:
       - issues_db
@@ -157,6 +175,27 @@ services:
       - attendance_db
       - sigq_db
       - warehouse_db
+      - ipt_analytics
+    networks:
+      - ipt_network
+
+  # DBT Runner
+  dbt:
+    image: ghcr.io/dbt-labs/dbt-postgres:1.7.0
+    container_name: ipt_dbt
+    entrypoint: ["tail", "-f", "/dev/null"]
+    environment:
+      DBT_HOST: ipt_analytics
+      DBT_DBNAME: ipt_analytics
+      DBT_USER: dbt_user
+      DBT_PASS: dbt_password
+      DBT_PORT: 5432
+    volumes:
+      - ./dbt_project:/usr/app/dbt_project
+    working_dir: /usr/app/dbt_project
+    depends_on:
+      ipt_analytics:
+        condition: service_healthy
     networks:
       - ipt_network
 
