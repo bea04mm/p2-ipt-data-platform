@@ -207,6 +207,7 @@ Default credentials: `dbt_user` / `dbt_password`
 
 The platform includes Metabase (port 3000) for creating dashboards:
 - Access: http://localhost:3000
+- Use the credentials in the Connection Details section
 - Connect to the warehouse database for analytics queries
 - Build visualizations from transformed data in the warehouse
 - Create interactive dashboards for business intelligence
@@ -511,18 +512,18 @@ For this project, we recommend **Strategy 1 (FDW)** for development and learning
 
 ## Data Ingestion
 
-Once your warehouse has access to source data (via FDW or ETL), populate it using the ingest script:
+Once our warehouse has access to source data (via FDW), we can populate it using the ingest script:
 
 ```bash
 ./scripts/ingest.sh
 ```
 
 This script:
-- Extracts data from source databases
-- Loads it into the warehouse database
-- Prepares data for dbt transformations
+- Extracts data from seeds
+- Loads into their respective database
+- Prepares data for transformations
 
-After running this script, the warehouse contains all necessary data for analytics.
+After running this script, the warehouse contains all necessary data for analytics, because it has a direct relationship with the other databases.
 
 ## dbt Transformation Commands
 
