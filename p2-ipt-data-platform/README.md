@@ -272,6 +272,11 @@ psql -h issues_db -U issues_user -d issues_app
 
 For Adminer at http://localhost:8080, use service names (e.g., `issues_db`, `ipt_analytics`)
 
+For Metabase use this credentials:
+
+ - admin@ipt.pt
+ - admin1!
+
 ## Data Overview
 
 Sample data covers September 15 - December 19, 2025, with exam period in January 2026.
