@@ -22,26 +22,22 @@ ingressos as (
     select * from {{ ref('stg_ingressos') }}
 )
 
--- 2. Perform the Business Logic (Joins)
+-- 2. Transformations and Joins
 select 
-    -- Student Details
     q.is_primeira_opcao,
     q.razoes_texto_livre,
     q.lista_codigos_conhecimento,
     q.lista_codigos_razoes,
 
-    -- Course Details
     c.nome_curso,
     
-    -- Admission Details
     i.descricao_ingresso as tipo_ingresso,
 
-    -- Location Details: Origin (Where they live)
+
     o.concelho_origem,
     o.latitude_origem as lat_origem,
     o.longitude_origem as long_origem,
 
-    -- Location Details: Previous School (Where they studied)
     e.concelho_escola,
     e.latitude_escola as lat_escola,
     e.longitude_escola as long_escola

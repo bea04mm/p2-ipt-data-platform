@@ -53,9 +53,16 @@ echo ""
 echo "Step 2: Loading data into databases..."
 echo ""
 
-# Wait for databases to be ready
+# Wait for databases and tools container to be ready
 echo "  → Waiting for databases to be ready..."
-sleep 3
+sleep 5
+
+# Check if tools container is running, if not start it
+if ! docker compose ps tools | grep -q "Up"; then
+    echo "  → Starting tools container..."
+    docker compose up -d tools
+    sleep 5
+fi
 
 # Load data using the tools container (which has psql)
 echo "  → Loading data via tools container..."

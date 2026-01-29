@@ -5,8 +5,8 @@ docker compose up -d --build
 echo "✅ Serviços iniciados."
 
 echo "🏗️  A gerar e carregar dados..."
-./scripts/generate_and_load.sh
-./scripts/ingest.sh
+"$(dirname "$0")/generate_and_load.sh"
+"$(dirname "$0")/ingest.sh"
 echo "✅ Dados gerados e carregados."
 
 echo "📊 A executar dbt para transformar dados..."

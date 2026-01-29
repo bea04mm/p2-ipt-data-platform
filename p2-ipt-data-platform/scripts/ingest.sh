@@ -1,10 +1,14 @@
 #!/bin/bash
 
-# seeds files
-SIGQ_SEEDS="generated_data/sigq_seed.sql"
-issues_SEEDS="generated_data/issues_seed.sql"
-attendance_SEEDS="generated_data/attendance_seed.sql"
-reservations_SEEDS="generated_data/reservations_seed.sql"
+# Get the script directory and project directory
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PROJECT_DIR="$(dirname "$SCRIPT_DIR")"
+
+# seeds files (using absolute paths)
+SIGQ_SEEDS="$PROJECT_DIR/generated_data/sigq_seed.sql"
+issues_SEEDS="$PROJECT_DIR/generated_data/issues_seed.sql"
+attendance_SEEDS="$PROJECT_DIR/generated_data/attendance_seed.sql"
+reservations_SEEDS="$PROJECT_DIR/generated_data/reservations_seed.sql"
 
 # Logica da batata
 echo "🚀 A começar a injeção..."
