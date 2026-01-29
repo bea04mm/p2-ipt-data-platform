@@ -1,18 +1,67 @@
 # IPT Data Platform - Complete Analytics Solution
 
-This project implements a comprehensive data platform for IPT (Instituto Politécnico de Tejo), designed to integrate data from multiple operational systems, transform it through a modern data stack, and provide analytics capabilities.
+This project implements a comprehensive, containerized data platform for IPT (Instituto Politécnico de Tomar), designed to centralize data from multiple operational systems and provide analytical and visualization capabilities using an open-source analytics stack.
+
 
 ## Project Overview
 
-The IPT Data Platform follows the **ELT (Extract, Load, Transform)** pattern and is built on a containerized architecture using Docker. It integrates data from five operational databases into a centralized warehouse database, applies data transformations using dbt, and provides analytics capabilities through Metabase dashboards.
+The platform is built on a Docker-based architecture and applies **ELT (Extract, Load, Transform)** principles to data integration and analytics. The platform centralizes operational data from multiple PostgreSQL source systems into a dedicated integration warehouse, while analytical and CSV-based datasets are ingested separately into an analytics database managed by dbt.
 
-### Architecture Layers
+Rather than using a single database for all workloads, the platform adopts a two-database architecture by design:
 
-1. **Source Layer (OLTP Databases)**: Five PostgreSQL databases containing operational data
-2. **Ingestion Layer**: Automated scripts that extract and load data into the warehouse
-3. **Warehouse Layer**: Central PostgreSQL database consolidating all cleaned data
-4. **Transformation Layer**: dbt project that performs data cleansing, standardization, and aggregation
-5. **Visualization Layer**: Metabase for creating dashboards and reports
+- **Integration Warehouse**: One PostgreSQL database consolidates operational data from all source systems
+- **Analytics Database**: A separate PostgreSQL database hosts dbt transformations, analytical models, and CSV seed data
+
+Analytics and reporting are provided through Metabase, which queries the analytics-ready datasets.
+
+
+## Architecture Layers
+
+1. **Source Layer (OLTP Databases)**: Four PostgreSQL databases representing independent operational systems (Issues, Reservations, Attendance, and SIGQ), each initialized with its own schema and data.
+
+2. **Ingestion Layer**: SQL-based extraction and loading processes that transfer operational data from source databases into the integration warehouse.
+
+3. **Integration Warehouse Layer**: A centralized PostgreSQL database (ipt_warehouse) responsible for consolidating and storing raw or lightly processed operational data from all source systems.
+
+4. **Analytics & Transformation Layer**: A separate PostgreSQL database (ipt_analytics) managed by dbt, where CSV files are ingested using dbt seeds, data is transformed through staging and mart models, and analytics-ready datasets are produced.
+
+5. **Visualization Layer**: Metabase is used to create dashboards and reports.
+
+
+### Architectural Decision: Separate Warehouse and Analytics Databases
+
+The separation between the integration warehouse (ipt_warehouse) and the analytics database (ipt_analytics) is an intentional architectural decision.
+
+This approach allows:
+
+- **Isolation of raw operational data from analytical transformations**
+- **Independent management of ingestion and analytics workloads**
+- **Safer experimentation and modeling in the analytics layer without affecting raw data**
+
+### Alternative Architecture (Single-Warehouse dbt Target)
+
+An alternative design would be to run dbt directly against the integration warehouse, materializing analytical models inside the same database. This could be achieved with the following dbt configuration:
+
+```yaml
+ipt_warehouse:
+    outputs:
+        dev:
+            type: postgres
+            host: warehouse_db
+            port: 5432
+            user: warehouse_user
+            password: warehouse_pass
+            dbname: ipt_warehouse
+            schema: analytics
+            threads: 4
+    target: dev
+```
+
+In this scenario, dbt models (including seeds, staging, and marts) would be created directly inside the warehouse database.
+
+### Chosen Approach
+
+For this project, the decision was made to separate operational data integration from analytical modeling by maintaining distinct databases. This results in a clearer separation of concerns and better reflects real-world analytics architectures where raw and analytical layers are isolated.
 
 ## System Components
 
@@ -31,7 +80,12 @@ Five operational databases provide data for the platform:
 ### Analytics Infrastructure
 
 - **Warehouse Database** (port 5440): Central PostgreSQL repository for consolidated and transformed data
-- **ipt_analytics Database** (port 5441): Database for dbt transformations and student questionnaire data
+- **ipt_analytics Database** (port 5441): PostgreSQL database targeted by dbt, responsible for:
+                    Ingesting CSV-based datasets via dbt seeds
+
+                    Storing staging and mart models
+
+                    Hosting analytics-ready tables
 - **Metabase** (port 3000): Web-based business intelligence and dashboard platform
 - **Adminer**: Web-based database browser on port 8080
 - **Tools Container**: Utility container with psql and automation scripts
