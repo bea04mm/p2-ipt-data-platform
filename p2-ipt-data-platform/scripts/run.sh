@@ -11,7 +11,7 @@ echo "✅ Dados gerados e carregados."
 
 echo "📊 A executar dbt para transformar dados..."
 docker exec -it ipt_dbt dbt seed --full-refresh
-docker exec -it ipt_dbt dbt run --select +dim_students
+docker exec -it ipt_dbt dbt run --select +dim_students +fact_students
 echo "✅ dbt concluído."
 
 echo "🎉 Processo concluído com sucesso!"

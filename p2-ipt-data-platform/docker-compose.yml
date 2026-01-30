@@ -199,7 +199,6 @@ services:
         condition: service_healthy
     networks:
       - ipt_network
-    # Keep container running for interactive use
     stdin_open: true
     tty: true
     command: sleep infinity
